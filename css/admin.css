@@ -1,0 +1,19 @@
+/* Adjusting the sidebar to start below the navbar */
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 56px; /* Adjust this value to match the height of your navbar */
+    left: 0;
+    height: calc(100% - 56px); /* Adjust this value to match the height of your navbar */
+    background-color: #343a40;
+    padding-top: 20px;
+    color: white;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+/* Content margin adjustments to avoid overlap */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}

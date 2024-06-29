@@ -1,0 +1,57 @@
+/* sidebar.css */
+
+/* General Sidebar Styles */
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 56px; /* Adjusted to match the height of the navbar */
+    left: 0;
+    height: calc(100% - 56px); /* Adjusted to account for the height of the navbar */
+    background-color: #343a40;
+    padding-top: 20px;
+    color: white;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+/* Sidebar Title */
+.sidebar .menu-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Sidebar Links */
+.sidebar .nav-link {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057;
+}
+
+.sidebar .nav-link.active {
+    background-color: #007bff;
+}
+
+/* Sidebar Icons */
+.sidebar .fa {
+    margin-right: 10px;
+}
+
+/* Dropdown Menu */
+.sidebar .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.sidebar .dropdown-menu .dropdown-item {
+    color: white;
+    padding: 10px 15px;
+}
+
+.sidebar .dropdown-menu .dropdown-item:hover {
+    background-color: #495057;
+}
